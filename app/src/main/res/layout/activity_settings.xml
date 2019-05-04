@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorAppBk"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Switch
+            android:id="@+id/private_switch"
+            android:textColor="#fff"
+            android:text="Private Mode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_alignBottom="@id/linearlayout"
+            android:textStyle="bold"
+            android:id="@+id/reboot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:backgroundTint="#F43F86"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:text="Reboot Server" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

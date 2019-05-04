@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466781814972",
+    "firebase_url": "https://homeprosecurity-b5243.firebaseio.com",
+    "project_id": "homeprosecurity-b5243",
+    "storage_bucket": "homeprosecurity-b5243.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466781814972:android:68ce232b2e1ce821",
+        "android_client_info": {
+          "package_name": "com.example.arunjith.homeprosecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466781814972-l8de2khm4pn9o8dbv7step4jcr6nk53m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arunjith.homeprosecurity",
+            "certificate_hash": "1e0b02637b493925631b8194681fbdf7b743153c"
+          }
+        },
+        {
+          "client_id": "466781814972-e6qu4u56cebctjdbrvrjf76of70ci48p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsfucljVrW1iTpqsPiyS2OoRGmISrmD00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466781814972-e6qu4u56cebctjdbrvrjf76of70ci48p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

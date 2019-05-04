@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:id="@+id/container"
+    android:paddingTop="20dp"
+    android:background="@color/colorAppBk"
+    android:paddingBottom="20dp">
+
+    <RelativeLayout
+        android:id="@+id/asd"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/visitor_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Arun"/>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:text="date: qwidgasdga"/>
+        </RelativeLayout>
+        <ImageView
+            android:src="@drawable/avatar_lg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_view"/>
+
+        <RelativeLayout
+            android:layout_below="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_alignParentLeft="true"
+                android:id="@+id/allowBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grand Permission"/>
+
+            <Button
+                android:layout_alignParentRight="true"
+                android:id="@+id/denyBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deny Permission"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
